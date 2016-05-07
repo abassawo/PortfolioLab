@@ -1,0 +1,119 @@
+{
+  "apps" :
+  [
+
+    {
+      "_id" : "0",
+      "name" : "FlickrFeed",
+      "avatar_url" : "http://i.imgur.com/UklPTGf.png",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "1",
+      "name" : "SoundCloud Player",
+      "avatar_url" : "http://i.imgur.com/pQGfrxa.png",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "2",
+      "name" : "Vimeo Top Picks",
+      "avatar_url" : "http://i.imgur.com/nd2tJNR.png",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "3",
+      "name" : "InstaGram Auto-Liker",
+      "avatar_url" : "http://i.imgur.com/nd2tJNR.png",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "4",
+      "name" : "Ecquo Planner",
+      "avatar_url" : "http://i.imgur.com/nd2tJNR.png",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "5",
+      "name" : "BeatBox",
+      "avatar_url" : "http://i.imgur.com/nd2tJNR.png",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "6",
+      "name" : "DayMinder",
+      "avatar_url" : "http://i.imgur.com/9D8Fg9z.png",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "7",
+      "name" : "DrawPad",
+      "avatar_url" : "http://i.imgur.com/zlp9bLU.jpg",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "8",
+      "name" : "Scientific Calculator",
+      "description" : "",
+      "category" : "productivity",
+      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "9",
+      "name" : "Material Stock Hawk",
+      "description" : "",
+      "category" : "productivity",
+      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "10",
+      "name" : "Popular Movies",
+      "description" : "",
+      "category" : "productivity",
+      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "11",
+      "name" : "Build it Bigger",
+      "description" : "",
+      "category" : "productivity",
+      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "12",
+      "name" : "Go ubiquitous!",
+      "description" : "",
+      "category" : "productivity",
+      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "bool_in_play_store" : "false"
+    },
+    {
+      "_id" : "13",
+      "name" : "SwagCam",
+      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "description" : "",
+      "category" : "productivity",
+      "bool_in_play_store" : "false"
+    }
+  ]
+}
+
