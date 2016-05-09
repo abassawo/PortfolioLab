@@ -1,20 +1,13 @@
 package com.example.c4q_abass.abassportfoliolab;
 
-import android.content.Context;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,19 +30,19 @@ public class PortfolioActivity extends AppCompatActivity {
     }
 
     public void setupRV(RecyclerView rv) {
-        rv.setLayoutManager(new GridLayoutManager(this, 2));
+        rv.setLayoutManager(new LinearLayoutManager(this));
         rv.setAdapter(appAdapter);
     }
 
     private class AsyncAppLoader extends AsyncTask<Void, Void, List<AppModel>> {
 
-        private static final String TAG = "AppLoader";
+        private static final String TAG = "JSONReader";
 
         @Override
         protected List<AppModel> doInBackground(Void... params) {
             List<AppModel> appList = new ArrayList<>();
             try {
-                String appFileData = AppLoader.getInstance(PortfolioActivity.this).loadAppFile();
+                String appFileData = JSONReader.getInstance(PortfolioActivity.this).readJSON();
                 JSONObject jsonData = new JSONObject(appFileData);
                 JSONArray jsonArray = jsonData.getJSONArray("apps");
 

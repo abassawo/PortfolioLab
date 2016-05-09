@@ -10,25 +10,25 @@ import java.io.InputStreamReader;
 /**
  * Created by c4q-Abass on 5/6/16.
  */
-public class AppLoader {
+public class JSONReader {
 
-    private static final String TAG = "AppLoader";
+    private static final int jsonFilePath = R.raw.portfolio_apps_data;
     private Context context;
-    private static AppLoader instance;
+    private static JSONReader instance;
 
-    public AppLoader(Context context){
+    public JSONReader(Context context){
         this.context = context;
     }
 
-    public static AppLoader getInstance(Context context){
+    public static JSONReader getInstance(Context context){
         if(instance == null){
-            instance = new AppLoader(context);
+            instance = new JSONReader(context);
         }
         return instance;
     }
 
-    public String loadAppFile() throws IOException {
-        InputStream inputStream =  context.getResources().openRawResource(R.raw.portfolio_apps_data);
+    public String readJSON() throws IOException {
+        InputStream inputStream =  context.getResources().openRawResource(jsonFilePath);
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 

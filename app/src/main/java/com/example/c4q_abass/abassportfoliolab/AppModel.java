@@ -1,8 +1,6 @@
 package com.example.c4q_abass.abassportfoliolab;
 
-import android.graphics.Bitmap;
 import android.util.Log;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -38,7 +36,7 @@ public class AppModel {
     public void setAvatarUrl(String avatarUrl){
         this.avatarUrl = avatarUrl;
     }
-    
+
     public String getAvatarUrl(){
         return this.avatarUrl;
     }

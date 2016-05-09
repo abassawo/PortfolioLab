@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import com.bumptech.glide.Glide;
 
 import java.util.List;
@@ -34,7 +33,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppHolder> {
 
     @Override
     public AppHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.app_item, parent, false);
+        View view = LayoutInflater.from(context).inflate(R.layout.app_list_item, parent, false);
         return new AppHolder(view);
     }
 
@@ -57,6 +56,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppHolder> {
         public AppHolder(View itemView) {
             super(itemView);
             imageView = (ImageView)itemView.findViewById(R.id.app_logo_iv);
+            imageView.setImageDrawable(context.getResources().getDrawable(R.drawable.placeholder));
             titleField = (TextView) itemView.findViewById(R.id.app_title_tv);
             itemView.setOnClickListener(this);
         }
@@ -71,8 +71,10 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppHolder> {
 
         private void bindThumbNail() {
             Log.d(TAG, "trying to load avatar from url " + app.getAvatarUrl());
-//            new ThumbnailAsync(imageView).execute(app.getAvatarUrl());
-            Glide.with(context).load(app.getAvatarUrl()).into(imageView);
+            if(app.getAvatarUrl() != null) {
+                Glide.with(context).load(app.getAvatarUrl()).centerCrop().into(imageView);
+            }else
+            imageView.setImageDrawable(context.getResources().getDrawable(R.drawable.placeholder));
         }
 
         @Override

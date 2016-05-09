@@ -5,7 +5,7 @@
     {
       "_id" : "0",
       "name" : "FlickrFeed",
-      "avatar_url" : "http://i.imgur.com/UklPTGf.png",
+      "avatar_url" : "https://pbs.twimg.com/profile_images/616076655547682816/6gMRtQyY.jpg",
       "description" : "",
       "category" : "productivity",
       "bool_in_play_store" : "false"
@@ -21,7 +21,7 @@
     {
       "_id" : "2",
       "name" : "Vimeo Top Picks",
-      "avatar_url" : "http://i.imgur.com/nd2tJNR.png",
+      "avatar_url" : "http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/03/vimeo_edited11.jpg",
       "description" : "",
       "category" : "productivity",
       "bool_in_play_store" : "false"
@@ -29,7 +29,7 @@
     {
       "_id" : "3",
       "name" : "InstaGram Auto-Liker",
-      "avatar_url" : "http://i.imgur.com/nd2tJNR.png",
+      "avatar_url" : "http://us.mullenlowe.com/wp-content/uploads//2013/10/instagramlogo.jpg",
       "description" : "",
       "category" : "productivity",
       "bool_in_play_store" : "false"
@@ -45,7 +45,7 @@
     {
       "_id" : "5",
       "name" : "BeatBox",
-      "avatar_url" : "http://i.imgur.com/nd2tJNR.png",
+      "avatar_url" : "http://www.beatbox-rap.com/wp-content/uploads/thumb_beatboxDMC-01.png",
       "description" : "",
       "category" : "productivity",
       "bool_in_play_store" : "false"
@@ -71,7 +71,7 @@
       "name" : "Scientific Calculator",
       "description" : "",
       "category" : "productivity",
-      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "avatar_url" : "http://www.icreatemagazine.com/wp-content/uploads/2013/08/Calculator.png",
       "bool_in_play_store" : "false"
     },
     {
@@ -79,7 +79,7 @@
       "name" : "Material Stock Hawk",
       "description" : "",
       "category" : "productivity",
-      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "avatar_url" : "http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png",
       "bool_in_play_store" : "false"
     },
     {
@@ -87,7 +87,7 @@
       "name" : "Popular Movies",
       "description" : "",
       "category" : "productivity",
-      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "avatar_url" : "http://icons.iconarchive.com/icons/itzikgur/my-seven/256/Movies-Oscar-icon.png",
       "bool_in_play_store" : "false"
     },
     {
@@ -103,13 +103,13 @@
       "name" : "Go ubiquitous!",
       "description" : "",
       "category" : "productivity",
-      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "avatar_url" : "https://cdn3.iconfinder.com/data/icons/logistics-delivery-set-1/512/33-512.png",
       "bool_in_play_store" : "false"
     },
     {
       "_id" : "13",
       "name" : "SwagCam",
-      "avatar_url" : "http://i.imgur.com/ZcfycKQ.png",
+      "avatar_url" : "http://a2.mzstatic.com/us/r30/Purple49/v4/db/70/ba/db70ba31-504f-3371-e079-7084f3a56316/icon175x175.jpeg",
       "description" : "",
       "category" : "productivity",
       "bool_in_play_store" : "false"
