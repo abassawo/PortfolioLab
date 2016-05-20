@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -20,14 +22,14 @@ import java.util.List;
 public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppHolder> {
     private static final String TAG = "AppAdapter" ;
     private Context context;
-    private List<AppModel> apps;
+    private AppSet apps;
 
-    public AppAdapter(Context context, List<AppModel> apps) {
+    public AppAdapter(Context context, AppSet apps) {
         this.context = context;
         this.apps = apps;
     }
 
-    public void setApps(List<AppModel> apps){
+    public void setApps(AppSet apps){
         this.apps = apps;
     }
 
