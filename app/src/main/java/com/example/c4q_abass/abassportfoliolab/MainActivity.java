@@ -23,14 +23,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         tabs = (TabLayout) findViewById(R.id.tabs);
-        setupViewPager(Constants.categories);
+        if (viewPager != null) {
+            setupViewPager(Constants.categories);
+        }
+
         tabs.setupWithViewPager(viewPager);
     }
 
     private void setupViewPager(String... categories){
         tabAdapter = new TabAdapter(getSupportFragmentManager());
         for(String category : categories){
-            PortfolioFragment fragment = PortfolioFragment.getInstance(category);
+            PortfolioFragment fragment = new PortfolioFragment();
             tabAdapter.addFragment(fragment, category);
         }
         viewPager.setAdapter(tabAdapter);

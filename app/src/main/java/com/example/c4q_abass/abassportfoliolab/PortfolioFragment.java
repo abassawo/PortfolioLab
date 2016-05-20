@@ -43,7 +43,12 @@ public class PortfolioFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Bundle args = getArguments();
-        appCategory = args.getString(APPSET_KEY);
+        if (args != null) {
+            appCategory = args.getString(APPSET_KEY);
+        }else{
+            appCategory = "Apps";
+        }
+
         appSet = new AppSet(appCategory);
         appAdapter = new AppAdapter(getActivity(), appSet);
     }
@@ -52,15 +57,17 @@ public class PortfolioFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_portfolio, container, false);
-        initViews();
-        setupRV(recyclerView);
-        new AsyncAppLoader().execute();
         return view;
     }
 
-    public void initViews() {
-        recyclerView = (RecyclerView) getView().findViewById(R.id.portfolio_recycler_view);
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        recyclerView = (RecyclerView) view.findViewById(R.id.portfolio_recycler_view);
+        setupRV(recyclerView);
+        new AsyncAppLoader().execute();
     }
+
 
     public void setupRV(RecyclerView rv) {
         rv.setLayoutManager(new LinearLayoutManager(getActivity()));

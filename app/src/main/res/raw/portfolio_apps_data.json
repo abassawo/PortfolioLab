@@ -15,7 +15,7 @@
       "name" : "SoundCloud Player",
       "avatar_url" : "http://i.imgur.com/pQGfrxa.png",
       "description" : "",
-      "category" : "productivity",
+      "category" : "entertainment",
       "bool_in_play_store" : "false"
     },
     {
@@ -23,7 +23,7 @@
       "name" : "Vimeo Top Picks",
       "avatar_url" : "http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/03/vimeo_edited11.jpg",
       "description" : "",
-      "category" : "productivity",
+      "category" : "entertainment",
       "bool_in_play_store" : "false"
     },
     {
@@ -31,7 +31,7 @@
       "name" : "InstaGram Auto-Liker",
       "avatar_url" : "http://us.mullenlowe.com/wp-content/uploads//2013/10/instagramlogo.jpg",
       "description" : "",
-      "category" : "productivity",
+      "category" : "entertainment",
       "bool_in_play_store" : "false"
     },
     {

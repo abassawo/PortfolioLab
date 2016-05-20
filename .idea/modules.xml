@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AbassPortfolioLab.iml" filepath="$PROJECT_DIR$/AbassPortfolioLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PortfolioLab.iml" filepath="$PROJECT_DIR$/PortfolioLab.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
