@@ -4,12 +4,13 @@ import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.Serializable;
 import java.util.UUID;
 
 /**
  * Created by c4q-Abass on 5/6/16.
  */
-public class AppModel {
+public class AppModel implements Serializable{
 
     private final String TAG = "AppModel";
 
@@ -51,5 +52,9 @@ public class AppModel {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getCategory() {
+        return category;
     }
 }
