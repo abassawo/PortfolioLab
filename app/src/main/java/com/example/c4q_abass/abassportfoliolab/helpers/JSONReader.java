@@ -1,6 +1,9 @@
-package com.example.c4q_abass.abassportfoliolab;
+package com.example.c4q_abass.abassportfoliolab.helpers;
 
 import android.content.Context;
+
+import com.example.c4q_abass.abassportfoliolab.R;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;

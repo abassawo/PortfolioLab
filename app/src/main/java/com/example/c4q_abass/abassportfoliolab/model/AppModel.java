@@ -1,6 +1,9 @@
-package com.example.c4q_abass.abassportfoliolab;
+package com.example.c4q_abass.abassportfoliolab.model;
 
 import android.util.Log;
+
+import com.example.c4q_abass.abassportfoliolab.Mvp;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -10,7 +13,7 @@ import java.util.UUID;
 /**
  * Created by c4q-Abass on 5/6/16.
  */
-public class AppModel implements Serializable{
+public class AppModel implements Mvp.Model, Serializable{
 
     private final String TAG = "AppModel";
 
